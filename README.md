@@ -11,6 +11,7 @@ This project serves as a demo to showcase some key features to make flutter deve
 
 ## Arquitecture
 We follow a clean arquitecture approach that enforces seperation of concerns. This allows our code to be more readable, testable and less error-prone. Our own custom approach to the arquitecture is to have three main layers.
+<a href="https://resocoder.com/2019/08/27/flutter-tdd-clean-architecture-course-1-explanation-project-structure/#t-1624305976895"> Clean Arquitecture Visual </a>
 
 ### Presentation
 This layer holds all the logic related to the UI. It has little to no business logic and primarily serves to display views and widgets to the user and receive user interaction. By keeping this layer free from all business logic, we can safely work on UI design and not have to worry about breaking functionality. Additionaly, this also has the benefit of making the views and widgets relatively lean, thus further enhancing readability.
@@ -29,8 +30,9 @@ This layer holds the repository implementations and primarily focuses on making 
 
 ## Testing
 ### Unit Tests
-
+<a href="https://flutter.dev/docs/cookbook/testing/unit/introduction"> Flutter Unit Test Documentation </a>
 ### Integration Tests
+There is 
 
 ### E2E Testing
 
